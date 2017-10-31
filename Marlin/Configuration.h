@@ -455,8 +455,8 @@
 //#define BLTOUCH
 
 // Z Servo Probe, such as an endstop switch on a rotating arm.
-#define Z_ENDSTOP_SERVO_NR 0 //========================================================> fim de curso z com servomotor
-#define Z_SERVO_ANGLES {165,0} // Z Servo Deploy and Stow angles //=====================>angulos do servomotor
+//#define Z_ENDSTOP_SERVO_NR 0 //========================================================> fim de curso z com servomotor
+//#define Z_SERVO_ANGLES {165,0} // Z Servo Deploy and Stow angles //=====================>angulos do servomotor
 
 // Enable if you have a Z probe mounted on a sled like those designed by Charles Bell.
 //#define Z_PROBE_SLED
@@ -656,7 +656,7 @@
 
 // @section bedlevel
 
-#define AUTO_BED_LEVELING_FEATURE // Delete the comment to enable (remove // at the start of the line)
+//#define AUTO_BED_LEVELING_FEATURE // Delete the comment to enable (remove // at the start of the line)
 
 // Enable this feature to get detailed logging of G28, G29, M48, etc.
 // Logging is off by default. Enable this logging feature with 'M111 S32'.
@@ -678,7 +678,7 @@
 
   // Enable this to sample the bed in a grid (least squares solution).
   // Note: this feature generates 10KB extra code size.
-  #define AUTO_BED_LEVELING_GRID //========================================>habilita grid para nivelamento automatico
+#define AUTO_BED_LEVELING_GRID //========================================>habilita grid para nivelamento automatico
 
   #if ENABLED(AUTO_BED_LEVELING_GRID)
 
